@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 APPLICATIONYML="https://raw.githubusercontent.com/freyacodes/Lavalink/master/LavalinkServer/application.yml.example"
 URL="https://api.github.com/repos/Cog-Creators/Lavalink-Jars/releases"
 
