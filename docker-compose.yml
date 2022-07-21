@@ -1,0 +1,17 @@
+version: "3.9"
+services:
+  lavalink:
+    ports:
+      # Note: if you changed port: in the application.yml, you need to change this too.
+      - "2333:2333"
+    build: .
+    # ----------------------------------------------------------------------
+    # If you want to bind a application.yml file, uncomment the following line.
+    # You can download application.yml from the official Lavalink repo. (https://raw.githubusercontent.com/freyacodes/Lavalink/master/LavalinkServer/application.yml.example)
+    # volumes:
+    #   - type: bind
+    #     source: ${PWD}/application.yml
+    #     target: /opt/lavalink/application.yml
+    # ----------------------------------------------------------------------
+    # If you're using ipv6 rotation in lavalink, uncomment this line
+    # network_mode: host # Sets container's network mode to host.
