@@ -1,6 +1,7 @@
 version: "3.9"
 services:
   lavalink:
+    restart: "always"
     ports:
       # Note: if you changed port: in the application.yml, you need to change this too.
       - "2333:2333"
